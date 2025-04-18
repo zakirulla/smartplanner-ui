@@ -1,8 +1,8 @@
 
 import { useState } from 'react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Slider } from '@/components/ui/slider';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { Card, CardContent } from './components/ui/card';
+import { Slider } from './components/ui/slider';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from './components/ui/tabs';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const sampleData = [
